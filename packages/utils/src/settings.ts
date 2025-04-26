@@ -100,10 +100,7 @@ export class Settings {
   public static readonly MEDIAFLOW_IP_TIMEOUT = process.env.MEDIAFLOW_IP_TIMEOUT
     ? parseInt(process.env.MEDIAFLOW_IP_TIMEOUT)
     : 30000;
-  public static readonly ENCRYPT_MEDIAFLOW_URLS = process.env
-    .ENCRYPT_MEDIAFLOW_URLS
-    ? process.env.ENCRYPT_MEDIAFLOW_URLS === 'true'
-    : false;
+  public static readonly ENCRYPT_MEDIAFLOW_URLS = true;
 
   // Comet settings
   public static readonly COMET_URL =
