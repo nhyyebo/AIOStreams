@@ -315,7 +315,7 @@ const FormatterHelperPage: React.FC = () => {
             <div>
               <h2 className="text-2xl font-bold mb-4">Complete Templates</h2>
               <p className="mb-6">
-                These are ready-to-use templates for common scenarios. Click "Apply Template" to see how it looks in the preview.
+                These are ready-to-use templates for common scenarios. Click &quot;Apply Template&quot; to see how it looks in the preview.
               </p>
               <div className="grid grid-cols-1 gap-6">
                 {formatterTemplates.map((template) => (
@@ -409,7 +409,7 @@ const FormatterHelperPage: React.FC = () => {
             <div>
               <h2 className="text-2xl font-bold mb-4">Live Preview</h2>
               <p className="mb-6">
-                See how your custom formatter looks with sample data. Apply a template from the "Complete Templates" section or paste your own custom formatter here.
+                See how your custom formatter looks with sample data. Apply a template from the &quot;Complete Templates&quot; section or paste your own custom formatter here.
               </p>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-6">
                 <FormatterPreview formatter={customFormatter} />
