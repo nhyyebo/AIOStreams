@@ -52,6 +52,11 @@ const CustomFormatter: React.FC<CustomFormatterProps> = ({
               wiki
             </a>
             <br />
+            Need help with formatters? Try our{' '}
+            <a href="/formatter-helper" className="text-blue-500 hover:underline">
+              Formatter Helper
+            </a>{' '}
+            for easy-to-use snippets and templates.
           </p>
 
           <div className={styles.formGroup}>
