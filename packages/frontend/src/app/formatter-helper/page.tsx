@@ -153,17 +153,17 @@ const FormatterHelperPage: React.FC = () => {
     {
       id: 'conditions',
       name: 'Conditions',
-      explanation: 'Conditions check if values meet certain criteria. Format: {property::condition["true value"||"false value"]}. For example, {provider.cached::=true["u2713"||""]} shows a checkmark only if the stream is cached.'
+      explanation: 'Conditions check if values meet certain criteria. Format: {property::condition[&quot;true value&quot;||&quot;false value&quot;]}. For example, {provider.cached::=true[&quot;u2713&quot;||&quot;&quot;]} shows a checkmark only if the stream is cached.'
     },
     {
       id: 'comparisons',
       name: 'Comparison Operators',
-      explanation: 'Available operators: = (equals), > (greater than), >= (greater than or equal), < (less than), <= (less than or equal). Example: {stream.season::>0["S{stream.season}"||""]} only shows the season if it\'s greater than 0.'
+      explanation: 'Available operators: = (equals), > (greater than), >= (greater than or equal), < (less than), <= (less than or equal). Example: {stream.season::>0[&quot;S{stream.season}&quot;||&quot;&quot;]} only shows the season if it\'s greater than 0.'
     },
     {
       id: 'regex',
       name: 'Regular Expressions',
-      explanation: 'Use /pattern/ for regex matching. Example: {stream.resolution::/^$|Unknown/[""||" {stream.resolution}"]} only shows resolution if it\'s not empty or "Unknown".'
+      explanation: 'Use /pattern/ for regex matching. Example: {stream.resolution::/^$|Unknown/[&quot;&quot;||&quot; {stream.resolution}&quot;]} only shows resolution if it\'s not empty or &quot;Unknown&quot;.'
     }
   ];
 
